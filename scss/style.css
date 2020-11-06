@@ -1,0 +1,61 @@
+body {
+    
+}
+
+#product-categories > div {
+    height: 300px;
+}
+
+#jeans {
+    background: url("/dua-90s-black-jeans.jpg");
+    background-size: cover;
+}
+
+#tops {
+    background: url("/dua-cutout-top.jpg");
+    background-size: cover;
+}
+
+#dresses {
+    background: url("/jean-dress.jpg");
+    background-size: cover;
+}
+
+#accessories {
+    background: url("/jumpsuit-jewelry.jpg");
+    background-size: cover;
+}
+
+.shop-btn {
+  /* border: 1px outset black; */
+}
+
+#product-categories > div {
+    /* position: relative; */
+}
+
+.shop-category-btn {
+    /* position: absolute; */
+    /* Used margin-top to pin buttons to bottom of div instead of position: absolute because changing the position attribute decentered the buttons. */
+    margin-top: 250px;
+    border: 1px solid #2e3338;
+}
+
+#footer {
+    background: #343a40;
+    color: white;
+    padding: 30px 0;
+    border-top: 5px solid #2e3338;
+}
+
+#footer a {
+    color: lightgray;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#signupModal {
+    /* TODO: colors */
+}

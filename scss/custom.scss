@@ -1,0 +1,20 @@
+// Import bootstrap styles
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Override color scheme.
+$theme-colors: (
+  "primary": #0074d9,
+//   "secondary": ,
+//   "success": ,
+  "danger": #ff4136,
+//   "warning": ,
+//   "info": ,
+//   "light": ,
+);
+// $font-sizes: (
+//     "small": 12px, 
+//     "normal": 18px, 
+//     "large": 24px
+// );
+
+/* Override font families. */
