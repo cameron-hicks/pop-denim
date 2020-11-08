@@ -7,22 +7,22 @@ body {
 }
 
 #jeans {
-    background: url("/dua-90s-black-jeans.jpg");
+    background: url("/Pictures/dua-90s-black-jeans.jpg");
     background-size: cover;
 }
 
 #tops {
-    background: url("/dua-cutout-top.jpg");
+    background: url("/Pictures/dua-cutout-top.jpg");
     background-size: cover;
 }
 
 #dresses {
-    background: url("/jean-dress.jpg");
+    background: url("/Pictures/jean-dress.jpg");
     background-size: cover;
 }
 
 #accessories {
-    background: url("/jumpsuit-jewelry.jpg");
+    background: url("/Pictures/jumpsuit-jewelry.jpg");
     background-size: cover;
 }
 
@@ -58,4 +58,25 @@ body {
 
 #signupModal {
     /* TODO: colors */
+}
+
+/* Vertically centers the modal by adding padding to the transparent fade area around the dialog box. */
+.modal-dialog {
+    padding-top: 20%;
+}
+
+.modal-content {
+    /* background: url("/Pictures/denim-jacket-color.jpg");
+    background-size: cover; */
+}
+
+.modal-header {
+    padding-bottom: 5%;
+    /* font-size: 20px; */
+}
+
+.modal-body {
+    /* padding-top: 10%; */
+    /* padding-bottom: 10%; */
+    /* font-size: 1.5rem; */
 }
